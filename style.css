@@ -1,0 +1,123 @@
+
+
+
+/* navbar */
+
+#logo{
+    width: 230px;
+    height: 67px;
+}
+.side{
+    position: absolute;
+    right: 190px;
+}
+.btn{
+    --bs-btn-border-radius: 7rem;
+}
+hr {
+    margin: 0rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: 14.25;
+}
+.trans{
+    transition: 1s ease;
+}
+
+#navbar{
+position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 1s ease;
+  border-bottom: solid black 1px;
+  z-index: 2;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* subheading */
+
+.sub_head{
+
+margin-top: 60PX;
+   height: 27rem;
+  
+}
+
+h1{
+    color: black;
+    padding-top: 4rem;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.read-btn{
+    padding-left:30px ;
+    padding-right: 30px;
+}
+
+
+
+
+tr{
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+
+.small{
+    font-size:15px ;
+    cursor: pointer;
+    
+}
+
+.thodakamsmall{
+    font-size:20px ;
+    cursor: pointer;
+}
+.img_width{
+    width: 150px;
+}
+.hehe{
+    border-width:1px !important;
+    border-top-left-radius:5px !important;
+    border-top-right-radius:5px !important;
+    border-bottom-left-radius:5px !important;
+    border-bottom-right-radius:5px !important;
+}
+.m{
+    width: 450px;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    z-index: 1;
+}
+@media screen and (max-width: 900px) {
+    .m {
+  
+  
+      opacity: 0;
+  
+    }
+    
+
+   h1{
+    font-size: 4rem;
+   }
+
+       
+  
+  
+  }
+  .marginright{
+    margin-right: 18px;
+  }
